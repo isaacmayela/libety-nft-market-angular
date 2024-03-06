@@ -3,11 +3,12 @@ import { BannerSectionComponent } from '../banner-section/banner-section.compone
 import { CategoriesSectionComponent } from '../categories-section/categories-section.component';
 import { CreateComponent } from '../create/create.component';
 import { CurrentMarketComponent } from '../current-market/current-market.component';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-home-component',
   standalone: true,
-  imports: [BannerSectionComponent, CategoriesSectionComponent, CreateComponent, CurrentMarketComponent],
+  imports: [BannerSectionComponent, CategoriesSectionComponent, CreateComponent, CurrentMarketComponent, FooterComponent],
   templateUrl: './home-component.component.html',
   styleUrl: './home-component.component.css'
 })
