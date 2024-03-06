@@ -1,0 +1,22 @@
+<div class="overflow-hidden  rounded-[15px_15px_0_0]">
+  <div class="">
+    <img src="assets/images/collection-01.jpg" alt="image description" class="w-full"/>
+  </div>
+  <div class="bg-[#282b2f] py-[3em] px-[2em] border-[1px] border-[#5e5e5e] border-solid rounded-[0_0_15px_15px]">
+    <h3 class="border-b-[1px] border-[#5e5e5e] border-solid pb-[1em] font-bold text-[1.3em] mb-[1em]">{{ data.title }}</h3>
+    <div class="flex items-center justify-between">
+      <div>
+        <p>Items Collection:</p>
+        <h3 class="text-[1.4em] font-bold">{{ data.collection }}</h3>
+      </div>
+      <div>
+        <p>Category:</p>
+        <h3 class="text-[1.4em] font-bold">{{ data.category }}</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="flex justify-center px-[1.5em] mt-[2em]">
+  <button class="bg-[#7453fc] text-center w-full p-[0.7em] rounded-full font-semibold hover:bg-[#fff] hover:text-[#7453fc]">Explore {{ data.title }}</button>
+</div>

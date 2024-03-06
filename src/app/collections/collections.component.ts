@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { CollectionsListComponent } from '../collections-list/collections-list.component';
 
 @Component({
   selector: 'app-collections',
   standalone: true,
-  imports: [],
+  imports: [CollectionsListComponent],
   templateUrl: './collections.component.html',
   styleUrl: './collections.component.css'
 })
