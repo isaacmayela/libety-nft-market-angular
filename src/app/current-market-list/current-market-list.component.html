@@ -1,1 +1,5 @@
-<p>current-market-list works!</p>
+<div class="mt-[4em] grid grid-cols-[repeat(2,1fr)] gap-[1.7em] pr-[8em]">
+  <div  *ngFor="let item of items">
+    <app-current-item [data]="item"></app-current-item>
+  </div>
+</div>

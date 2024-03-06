@@ -1,0 +1,27 @@
+<div class="grid grid-cols-[repeat(12,1fr)] bg-[#282b2f] rounded-[15px] border-[1px] border-[#5e5e5e] border-solid p-[2em] gap-[2em]">
+  <img src="assets/images/market-01.jpg" alt="market" class="col-[1_/_6] rounded-[15px] h-full">
+  <div class="col-[6_/_13]">
+    <h1 class="text-[1.2em] font-bold mb-[1em]">{{data.title}}</h1>
+    <div class="flex gap-[1em] border-b-[1px] border-[#5e5e5e] border-solid pb-[2em] mb-[2em]">
+      <img [src]="data.profileUrl" alt="author" class="rounded-full">
+      <div>
+        <h5 class="font-semibold">{{ data.author }}</h5>
+        <a href="#" class="text-[#7453fc] font-semibold">{{ data.authorUsername }}</a>
+      </div>
+    </div>
+    <div class="flex items-center justify-between mb-[2em]">
+      <div>
+        <h4>Current Bid</h4>
+        <h5 class="text-[1.2em] font-bold my-[0.5em]">{{ data.type }}</h5>
+        <h4>{{ data.price }}</h4>
+      </div>
+      <div>
+        <h4>Ends In</h4>
+        <h5 class="text-[1.2em] font-bold my-[0.5em]">{{ data.duration }}</h5>
+        <h4>{{ data.date }}</h4>
+      </div>
+    </div>
+
+    <a href="#" class="text-[#7453fc] underline">View Item Details</a>
+  </div>
+</div>
