@@ -166,6 +166,97 @@ class CurrentMarketItems {
 
     return objList
   }
+
+  static getTopSellers(){
+    const objList = [
+      {
+        "id":1,
+        "profileUrl":"assets/images/author.jpg",
+        "author": "NFT Top Artist",
+        "type": "2.03 ETH",
+        "price": "$12,000",
+      },
+      {
+        "id":2,
+        "profileUrl":"assets/images/author-02.jpg",
+        "author": "George Brandon",
+        "type": "4.8 ETH",
+        "price": "$14,000",
+      },
+      {
+        "id":3,
+        "profileUrl":"assets/images/author-03.jpg",
+        "author": "Johnny Mayson",
+        "type": "6.2 ETH",
+        "price": "$26,000",
+      },
+      {
+        "id":4,
+        "profileUrl":"assets/images/author.jpg",
+        "author": "Liberty Artist",
+        "type": "4.8 ETH",
+        "price": "$14,000",
+      },
+      {
+        "id":5,
+        "profileUrl":"assets/images/author-02.jpg",
+        "author": "Ronald Martino",
+        "type": "7.2 ETH",
+        "price": "$14,500",
+      },
+      {
+        "id":6,
+        "profileUrl":"assets/images/author-03.jpg",
+        "author": "Anthony Brown",
+        "type": "8.6 ETH",
+        "price": "$7,400",
+      },
+      {
+        "id":7,
+        "profileUrl":"assets/images/author.jpg",
+        "author": "Liberty Artist",
+        "type": "9.8 ETH",
+        "price": "$14,200",
+      },
+      {
+        "id":8,
+        "profileUrl":"assets/images/author-02.jpg",
+        "author": "Ronald Martino",
+        "type": "6.5 ETH",
+        "price": "$15,000",
+      },
+      {
+        "id":9,
+        "profileUrl":"assets/images/author-03.jpg",
+        "author": "David Walker",
+        "type": "2.5 ETH",
+        "price": "$12,000",
+      },
+      {
+        "id":10,
+        "profileUrl":"assets/images/author.jpg",
+        "author": "Liberty Artist",
+        "type": "8.8 ETH",
+        "price": "$16,800",
+      },
+      {
+        "id":11,
+        "profileUrl":"assets/images/author-02.jpg",
+        "author": "Anthony Brown",
+        "type": "7.5 ETH",
+        "price": "$15,400",
+      },
+      {
+        "id":12,
+        "profileUrl":"assets/images/author-03.jpg",
+        "author": "David Walker",
+        "type": "5.2 ETH",
+        "price": "$12,300",
+      }
+    ]
+
+    return objList
+  }
 }
 
 export default CurrentMarketItems

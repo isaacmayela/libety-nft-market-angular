@@ -1,0 +1,10 @@
+<div class="grid grid-cols-[repeat(4,1fr)] gap-[1em] mt-[3em]">
+  <div  *ngFor="let item of items" class="flex items-center gap-[1em]">
+    <h1 class="text-[1.2em] font-bold">{{ item.id }}.</h1>
+    <div><img [src]="item.profileUrl" alt="profile" class="rounded-full w-[3.3em]"></div>
+    <div>
+      <h1 class="text-[1.2em] font-bold">{{ item.author }}</h1>
+      <p>{{ item.type }} or {{ item.price }}</p>
+    </div>
+  </div>
+</div>
