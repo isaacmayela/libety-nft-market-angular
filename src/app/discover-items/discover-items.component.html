@@ -1,0 +1,25 @@
+<div class="mt-[1em]">
+  <div class="bg-[#282b2f] rounded-[15px] border-[1px] border-[#5e5e5e] border-solid px-[2em] pt-[2em] gap-[2em]">
+    <div class="flex justify-center mb-[1em]">
+      <img [src]="data.profileUrl" alt="market" class="rounded-full">
+    </div>
+    <img [src]="data.imageUrl" alt="market" class="rounded-[15px] w-full">
+    <div class="">
+      <h1 class="text-[1.2em] font-bold mb-[1em] border-b-[1px] border-[#5e5e5e] border-solid pb-[1.5em] my-[2em]">{{data.title}}</h1>
+      <div class="flex items-center justify-between mb-[2em]">
+        <div>
+          <h4>Current Bid</h4>
+          <h5 class="text-[1.3em] font-bold my-[0.5em]">{{ data.type }}</h5>
+        </div>
+        <div>
+          <h4>Ends In</h4>
+          <h5 class="text-[1.3em] font-bold my-[0.5em]">{{ data.date }}</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex justify-center mt-[1em]">
+    <a routerLink="/items-details" class="bg-[#7453fc] py-[0.5em] px-[1em] rounded-full font-semibold hover:bg-[#fff] hover:text-[#7453fc]">View Details</a>
+  </div>
+</div>

@@ -79,6 +79,93 @@ class CurrentMarketItems {
     return objList
 
   }
+
+  static getDiscoverDates(){
+    const objList = [
+      {
+        "id":1,
+        "title":"Mutant Ape Bored",
+        "profileUrl":"assets/images/author.jpg",
+        "imageUrl":"assets/images/discover-06.jpg",
+        "author": "Liberty Artist",
+        "authorUsername": "@libertyart",
+        "type": "2.03 ETH",
+        "date": "28th Nov",
+      },
+      {
+        "id":2,
+        "title":"His Other Half",
+        "profileUrl":"assets/images/author.jpg",
+        "imageUrl":"assets/images/discover-05.jpg",
+        "author": "Liberty Artist",
+        "authorUsername": "@libertyart",
+        "type": "2.03 ETH",
+        "date": "19th Nov",
+      },
+      {
+        "id":3,
+        "title":"Genesis Meta Boom",
+        "profileUrl":"assets/images/author.jpg",
+        "imageUrl":"assets/images/discover-03.jpg",
+        "author": "Liberty Artist",
+        "authorUsername": "@libertyart",
+        "type": "3.64 ETH",
+        "date": "28th Jan",
+      },
+      {
+        "id":4,
+        "title":"Another Half Ape",
+        "profileUrl":"assets/images/author.jpg",
+        "imageUrl":"assets/images/discover-04.jpg",
+        "author": "Liberty Artist",
+        "authorUsername": "@libertyart",
+        "type": "2.44 ETH",
+        "date": "23th Nov",
+      },
+      {
+        "id":5,
+        "title":"Pixel Sand Box",
+        "profileUrl":"assets/images/author.jpg",
+        "imageUrl":"assets/images/discover-05.jpg",
+        "author": "Liberty Artist",
+        "authorUsername": "@libertyart",
+        "type": "2.50 ETH",
+        "date": "28th Nov",
+      },
+      {
+        "id":6,
+        "title":"Another Half Ape",
+        "profileUrl":"assets/images/author.jpg",
+        "imageUrl":"assets/images/discover-03.jpg",
+        "author": "Liberty Artist",
+        "authorUsername": "@libertyart",
+        "type": "2.44 ETH",
+        "date": "29th Nov",
+      },
+      {
+        "id":7,
+        "title":"Invisible NFT Land",
+        "profileUrl":"assets/images/author.jpg",
+        "imageUrl":"assets/images/discover-06.jpg",
+        "author": "Liberty Artist",
+        "authorUsername": "@libertyart",
+        "type": "2.44 ETH",
+        "date": "26th Nov",
+      },
+      {
+        "id":8,
+        "title":"Another Half Ape",
+        "profileUrl":"assets/images/author.jpg",
+        "imageUrl":"assets/images/discover-04.jpg",
+        "author": "Liberty Artist",
+        "authorUsername": "@libertyart",
+        "type": "2.44 ETH",
+        "date": "25th Nov",
+      }
+    ]
+
+    return objList
+  }
 }
 
 export default CurrentMarketItems

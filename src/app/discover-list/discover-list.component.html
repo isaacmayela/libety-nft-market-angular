@@ -1,1 +1,5 @@
-<p>discover-list works!</p>
+<div class="grid grid-cols-[repeat(4,1fr)] gap-[1em] px-[7em] mt-[3em]">
+  <div  *ngFor="let item of items">
+    <app-discover-items [data]="item" />
+  </div>
+</div>

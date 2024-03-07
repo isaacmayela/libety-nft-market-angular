@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { NavigationsComponent } from '../navigations/navigations.component';
 import { ExploreBannerComponent } from '../explore-banner/explore-banner.component';
+import { DiscoverComponent } from '../discover/discover.component';
 
 @Component({
   selector: 'app-explore',
   standalone: true,
-  imports: [ExploreBannerComponent],
+  imports: [ExploreBannerComponent, DiscoverComponent],
   templateUrl: './explore.component.html',
   styleUrl: './explore.component.css'
 })
